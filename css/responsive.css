@@ -1,0 +1,66 @@
+/*========================================
+        Bootstrap 3 Media Queries
+=========================================*/
+
+/* Large Devices */
+@media (min-width: 1200px) {
+  /* this works */
+}
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .raman-nav-wrapper {
+    padding: 0;
+  }
+  #linkedin {
+    display: none !important;
+  }
+}
+
+/* Small Devices */
+@media (min-width: 760px) and (max-width: 991px) {
+  #footer-menu {
+    display: none !important;
+  }
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .raman-nav-wrapper {
+    padding: 0;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+  #footer-menu {
+    display: none !important;
+  }
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .raman-nav-wrapper {
+    padding: 0;
+  }
+  #home-heading h3 {
+    font-size: 24px;
+  }
+  .btn-general {
+    padding: 6px 22px 6px 22px;
+    font-size: 14px;
+  }
+}
